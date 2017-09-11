@@ -1,4 +1,3 @@
-#!/usr/bin/python
 from flask import Flask, jsonify
 from flask import abort
 from flask import make_response
@@ -10,19 +9,19 @@ tasks = [
     {
         'id': 1,
         'title': u'Buy groceries',
-        'description': u'Milk, Cheese, Pizza, Fruit, Tylenol', 
+        'description': u'Milk, Cheese, Pizza, Fruit, Tylenol',
         'done': False
     },
     {
         'id': 2,
         'title': u'Learn Python',
-        'description': u'Need to find a good Python tutorial on the web', 
+        'description': u'Need to find a good Python tutorial on the web',
         'done': False
     },
     {
         'id': 3,
         'title': u'Get Laid',
-        'description': u'Find a beautiful girl and get laid', 
+        'description': u'Find a beautiful girl and get laid',
         'done': False
     }
 ]
